@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T14:08:05.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.2" etag="W-dKqHnWzE48fA1dTWYa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-04T14:14:34.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="b8uqhpLcMsPPzTQcRPJG" version="22.0.2" type="github">
   <diagram name="Page-1" id="6imD9I_zeF5CqSMwfoGs">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D799DQ2JWPIRWAI0e49G-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D799DQ2JWPIRWAI0e49G-1" target="D799DQ2JWPIRWAI0e49G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D799DQ2JWPIRWAI0e49G-2" target="D799DQ2JWPIRWAI0e49G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-2" value="Initialize Pin 2-5 output" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D799DQ2JWPIRWAI0e49G-4" target="D799DQ2JWPIRWAI0e49G-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-4" value="Temp" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D799DQ2JWPIRWAI0e49G-6" target="D799DQ2JWPIRWAI0e49G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-6" value="TMP sensor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D799DQ2JWPIRWAI0e49G-8" value="Convert sensor value to voltage" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
